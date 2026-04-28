@@ -1,0 +1,8 @@
+FundID,TradingDay,UnitNAV,AccuNAV,AccuDividends,Dividends,dividend_cleaned,swap_flag,exclude_as_outlier,exclusion_reason,neg_dividend_flag,return_anomaly_flag,dividend_frequency_flag,issue_types
+394162,2020-03-30,2.0622,3.0290999999999997,0.9668999999999999,0.0,0.0,False,False,,False,True,False,return_anomaly
+394162,2020-05-25,2.139,4.6144,2.4754,1.5085000000000002,1.5085000000000002,False,False,,False,True,False,return_anomaly
+394162,2020-05-26,2.143,4.623,2.4800000000000004,0.0046000000000003816,0.0046000000000003816,False,False,,False,False,True,dividend_too_frequent
+394162,2020-11-09,2.35,5.0696,2.7196000000000002,0.06650000000000045,0.06650000000000045,False,False,,False,False,True,dividend_too_frequent
+394162,2020-11-25,2.4337,5.2501,2.8164,0.09589999999999899,0.09589999999999899,False,False,,False,False,True,dividend_too_frequent
+394162,2021-12-23,4.586399999999999,6.2371,1.6507000000000005,-1.6665999999999994,-1.6665999999999994,False,False,,True,False,False,negative_dividend
+394162,2021-12-24,1.2287,2.8794,1.6507,-4.440892098500626e-16,0.0,False,False,,False,True,False,return_anomaly

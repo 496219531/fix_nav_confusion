@@ -1,0 +1,10 @@
+{
+  "tol": 0.003,
+  "dividend_window_days": 20,
+  "nav_change_threshold": 0.2,
+  "max_outlier_span": 10,
+  "context_run_min_len": 2,
+  "context_neighbor_max_gap": 12,
+  "stable_dividend_run_days": 5,
+  "dividend_spike_max_span": 5
+}

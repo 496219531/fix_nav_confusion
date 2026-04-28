@@ -1,0 +1,4 @@
+FundID,TradingDay,UnitNAV,AccuNAV,AccuDividends,Dividends,dividend_cleaned,swap_flag,exclude_as_outlier,exclusion_reason,neg_dividend_flag,return_anomaly_flag,dividend_frequency_flag,issue_types
+943458,2025-01-15,0.7652274305555555,0.991,0.22577256944444446,0.0,0.0,False,False,,False,True,False,return_anomaly
+943458,2025-04-06,0.6820000000000002,0.907,0.22499999999999987,0.0,0.0,False,False,,False,True,False,return_anomaly
+943458,2025-04-07,0.52,0.7449999999999999,0.22499999999999987,0.0,0.0,False,False,,False,True,False,return_anomaly

@@ -1,0 +1,2 @@
+FundID,rows,excluded_rows,swapped_rows,edited_rows,swap_switches,neg_dividend_rows,return_anomaly_rows,dividend_frequency_rows,repair_failed,failure_reason,swap_segments
+893822,1270,6,0,6,0,0,0,0,False,,"[{'action': 'prev_div_accu_as_unit', 'start_day': Timestamp('2025-11-14 00:00:00'), 'end_day': Timestamp('2025-11-20 00:00:00'), 'rows': 6}]"
