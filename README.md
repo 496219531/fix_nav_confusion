@@ -24,6 +24,17 @@
 - [具体异常净值.xlsx](/Users/hkk/Documents/净值监控/具体异常净值.xlsx)：原始总表
 - [按基金拆分](/Users/hkk/Documents/净值监控/按基金拆分)：单基金输入文件目录
 
+## 运行环境
+
+- Python `3.10+`
+- 依赖见 [requirements.txt](/Users/hkk/Documents/净值监控/requirements.txt)
+
+安装依赖：
+
+```bash
+python3 -m pip install -r requirements.txt
+```
+
 ## 当前算法概览
 
 当前脚本已经包含这些处理层：
@@ -43,19 +54,40 @@
 - `shared_zero_after_positive`
 - `repeated_nonzero_bridge`
 
+## 目录结构
+
+```text
+净值监控/
+├── fix_nav_confusion.py
+├── thresholds.json
+├── requirements.txt
+├── README.md
+├── CODEX_CONTEXT.md
+├── 净值修复逻辑说明.md
+├── 具体异常净值.xlsx
+├── 按基金拆分/
+├── outputs/
+└── outputs_* /
+```
+
+- `outputs/`：当前全量运行结果
+- `outputs_*`：关键单基金调试结果快照
+
 ## 运行方式
 
 全量运行：
 
 ```bash
-/Users/hkk/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 fix_nav_confusion.py --input '按基金拆分' --output-dir 'outputs' --config 'thresholds.json'
+python3 fix_nav_confusion.py --input '按基金拆分' --output-dir 'outputs' --config 'thresholds.json'
 ```
 
 单基金调试：
 
 ```bash
-/Users/hkk/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 fix_nav_confusion.py --input '按基金拆分/393514.xlsx' --output-dir 'outputs_393514' --config 'thresholds.json'
+python3 fix_nav_confusion.py --input '按基金拆分/393514.xlsx' --output-dir 'outputs_393514' --config 'thresholds.json'
 ```
+
+如果你使用的是 Codex 桌面环境，也可以继续使用项目上下文文档里记录的运行时 Python 路径。
 
 ## 当前参数
 
