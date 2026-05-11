@@ -90,6 +90,14 @@ python3 fix_nav_confusion.py --input '按基金拆分/393514.xlsx' --output-dir 
 
 如果你使用的是 Codex 桌面环境，也可以继续使用项目上下文文档里记录的运行时 Python 路径。
 
+关键案例回归检查：
+
+```bash
+python3 scripts/check_regressions.py
+```
+
+这个脚本会单独重跑几只关键基金，并检查当前已确认的业务现象是否仍然成立。
+
 ## 当前参数
 
 以 [thresholds.json](/Users/hkk/Documents/净值监控/thresholds.json) 为准，当前默认值：
