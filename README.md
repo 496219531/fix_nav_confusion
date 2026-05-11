@@ -36,6 +36,13 @@
 python3 -m pip install -r requirements.txt
 ```
 
+也可以使用 `make`：
+
+```bash
+make help
+make install
+```
+
 ## 当前算法概览
 
 当前脚本已经包含这些处理层：
@@ -109,6 +116,14 @@ python3 scripts/check_regressions.py
 ```
 
 这个脚本会单独重跑几只关键基金，并检查当前已确认的业务现象是否仍然成立。
+
+如果你更习惯短命令，可以直接用：
+
+```bash
+make report
+make report-rerun
+make regression
+```
 
 当前全量基线保存在：
 
