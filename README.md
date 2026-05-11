@@ -21,6 +21,7 @@
 - [thresholds.json](/Users/hkk/Documents/净值监控/thresholds.json)：参数配置
 - [CODEX_CONTEXT.md](/Users/hkk/Documents/净值监控/CODEX_CONTEXT.md)：项目上下文与最新运行状态
 - [净值修复逻辑说明.md](/Users/hkk/Documents/净值监控/净值修复逻辑说明.md)：算法说明文档
+- [CASES.md](/Users/hkk/Documents/净值监控/CASES.md)：关键案例说明
 - [具体异常净值.xlsx](/Users/hkk/Documents/净值监控/具体异常净值.xlsx)：原始总表
 - [按基金拆分](/Users/hkk/Documents/净值监控/按基金拆分)：单基金输入文件目录
 
