@@ -1,0 +1,79 @@
+{
+  "as_of_date": "2026-04-22",
+  "summary": {
+    "total_funds": 52,
+    "success_funds": 41,
+    "failed_funds": 11,
+    "remaining_neg_dividend_rows": 5,
+    "remaining_return_anomaly_rows": 19,
+    "remaining_dividend_frequency_rows": 9
+  },
+  "failed_funds": {
+    "394162": {
+      "neg_dividend_rows": 1,
+      "return_anomaly_rows": 8,
+      "dividend_frequency_rows": 3,
+      "failure_reason": "negative_dividend_remaining,return_anomaly_remaining,dividend_too_frequent_remaining"
+    },
+    "404802": {
+      "neg_dividend_rows": 0,
+      "return_anomaly_rows": 1,
+      "dividend_frequency_rows": 1,
+      "failure_reason": "return_anomaly_remaining,dividend_too_frequent_remaining"
+    },
+    "494282": {
+      "neg_dividend_rows": 0,
+      "return_anomaly_rows": 0,
+      "dividend_frequency_rows": 1,
+      "failure_reason": "dividend_too_frequent_remaining"
+    },
+    "942574": {
+      "neg_dividend_rows": 2,
+      "return_anomaly_rows": 0,
+      "dividend_frequency_rows": 0,
+      "failure_reason": "negative_dividend_remaining"
+    },
+    "942775": {
+      "neg_dividend_rows": 1,
+      "return_anomaly_rows": 0,
+      "dividend_frequency_rows": 0,
+      "failure_reason": "negative_dividend_remaining"
+    },
+    "943386": {
+      "neg_dividend_rows": 1,
+      "return_anomaly_rows": 0,
+      "dividend_frequency_rows": 0,
+      "failure_reason": "negative_dividend_remaining"
+    },
+    "943458": {
+      "neg_dividend_rows": 0,
+      "return_anomaly_rows": 3,
+      "dividend_frequency_rows": 0,
+      "failure_reason": "return_anomaly_remaining"
+    },
+    "944765": {
+      "neg_dividend_rows": 0,
+      "return_anomaly_rows": 0,
+      "dividend_frequency_rows": 2,
+      "failure_reason": "dividend_too_frequent_remaining"
+    },
+    "944791": {
+      "neg_dividend_rows": 0,
+      "return_anomaly_rows": 0,
+      "dividend_frequency_rows": 1,
+      "failure_reason": "dividend_too_frequent_remaining"
+    },
+    "1550846": {
+      "neg_dividend_rows": 0,
+      "return_anomaly_rows": 0,
+      "dividend_frequency_rows": 1,
+      "failure_reason": "dividend_too_frequent_remaining"
+    },
+    "1648828": {
+      "neg_dividend_rows": 0,
+      "return_anomaly_rows": 7,
+      "dividend_frequency_rows": 0,
+      "failure_reason": "return_anomaly_remaining"
+    }
+  }
+}

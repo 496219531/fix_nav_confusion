@@ -82,6 +82,18 @@ python3 -m pip install -r requirements.txt
 python3 fix_nav_confusion.py --input '按基金拆分' --output-dir 'outputs' --config 'thresholds.json'
 ```
 
+全量运行并输出标准汇总：
+
+```bash
+python3 scripts/run_full_and_report.py
+```
+
+如果要先重跑全量再输出汇总：
+
+```bash
+python3 scripts/run_full_and_report.py --rerun
+```
+
 单基金调试：
 
 ```bash
@@ -97,6 +109,10 @@ python3 scripts/check_regressions.py
 ```
 
 这个脚本会单独重跑几只关键基金，并检查当前已确认的业务现象是否仍然成立。
+
+当前全量基线保存在：
+
+- [baselines/full_run_baseline.json](/Users/hkk/Documents/净值监控/baselines/full_run_baseline.json)
 
 ## 当前参数
 
